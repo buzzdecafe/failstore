@@ -1,4 +1,3 @@
-module.exports = { };
-//module.exports = {
-//  "store": "file"
-//}
+module.exports = {
+  "store": "db"
+}

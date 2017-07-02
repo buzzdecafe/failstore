@@ -1,5 +1,5 @@
 const config = require('./config/' + (process.argv[2] || 'dev'));
-const store = require('./store/file');
+const store = require('./store/' + config.store);
 const express = require('express');
 const bodyParser = require('body-parser');
 
