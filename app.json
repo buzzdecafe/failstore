@@ -1,0 +1,7 @@
+{
+  "name": "Storage for failed tests",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/buzzdecafe/failstore",
+  "keywords": ["node", "express", "heroku", "cypress", "test"],
+  "image": "heroku/nodejs"
+}

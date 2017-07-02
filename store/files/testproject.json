@@ -1,0 +1,6 @@
+{
+  "project": "testproject",
+  "failures": [
+    {"stuff": true}
+  ]
+}

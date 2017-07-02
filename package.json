@@ -1,0 +1,37 @@
+{
+  "name": "failstore",
+  "version": "0.0.1",
+  "description": "Store focha failure reports",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js prod",
+    "start:dev": "node index.js dev",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzzdecafe/failstore.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "cypress",
+    "test"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buzzdecafe/failstore/issues"
+  },
+  "homepage": "https://github.com/buzzdecafe/failstore#readme",
+  "author": "Michael Hurley",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
+  }
+}
